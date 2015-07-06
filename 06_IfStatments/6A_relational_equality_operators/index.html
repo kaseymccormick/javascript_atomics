@@ -6,6 +6,91 @@
   <script type="text/javascript" src="global.js"></script>
 </head>
 <body>
- 
+  <ul>Resources
+<li><a href="http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons"> first answer quote stack overflow</a></li>
+  </ul>
+  <div class="exersize">
+ <h2>console.log( "5 == '5' is " + (5 == '5') );</h2>
+ <h3>Guess: <span>true</span> <h3>
+
+   <p>Why: Sumeet said so, checked in console to verify.javascript accepts weak typing. Conversion is done behind the scenes <a href="http://stackoverflow.com/questions/964910/is-javascript-an-untyped-language">typing system</a></p>
+   
+     <div class="exersize">
+<h2>console.log( "5 == 'five' is " + (5 == 'five') );</h2>
+ <h3>Guess: <span>false</span><h3>
+
+   <p>Why:chances of javascript being able to convert a string'five' into an intiger 5 is very slim.</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 == '6' is " + (5 == '6') );</h2>
+ <h3>Guess: may be true  <em>false</em> <h3>
+
+       <p>Why:<em> 5 is an intiger 6 is an intiger but they are not the same intiger</em></p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 === '5' is " + (5 === '5') );</h2>
+ <h3>Guess: <span>true</span><h3>
+   <p>Why: five is equal to 5</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 == 2 + 3 is " + (5 == 2 + 3) );</h2>
+ <h3>Guess: false <em>true</em><h3>
+   <p>Why: may not do the math 2+3 becuase it's not in parenth. (2+3)</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 == 5 is " + (5 == 5) );</h2>
+ <h3>Guess: <span>true</span><h3>
+   <p>Why: 5 is equal 5</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 === 5 is " + (5 === 5) );</h2>
+ <h3>Guess: <span>true</span><h3>
+   <p>Why:5 is equal to 5</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "true == 'true' is " + (true == 'true') );</h2>
+ <h3>Guess: true <em>false</em><h3>
+   <p>Why: true is equal to true</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "true === 'true' is " + (true === 'true') );</h2>
+ <h3>Guess: true <em>false</em><h3>
+   <p>Why: true is equal to true</p>
+</div>
+  <div class="exersize">
+<h2>console.log( "true == false is " + (true == false) );</h2>
+ <h3>Guess: <span>false</span><h3>
+   <p>Why: true is not equal to false </p>
+</div>
+  <div class="exersize">
+<h2>console.log( "5 == 12 is " + (5 == 12) );</h2>
+ <h3>Guess:<span>false</span> <h3>
+   <p>Why: 5 is not equal to 12</p>
+   </div>
+     <div class="exersize">
+<h2>console.log( "5 !== 12 is " + (5 != 12) );</h2>
+ <h3>Guess:<span>true </span><h3>
+   <p>Why:5 is not equal to 12</p>
+   </div>
+     <div class="exersize">
+<h2>console.log( "5 < 12 is " + (5 < 12) );</h2>
+ <h3>Guess: <span>true</span> <h3>
+   <p>Why: 5 is less than 12</p>
+   </div>
+     <div class="exersize">
+<h2>console.log( "5 <= 12 is " + (5 <= 12) );</h2>
+ <h3>Guess: <span>true </span> <h3>
+   <p>Why:5 is less than or equal to 12</p>
+   </div>
+     <div class="exersize">
+<h2>console.log( "5 > 12 is " + (5 > 12));</h2>
+ <h3>Guess:<span> false </span> <h3>
+   <p>Why:5 is not greater then 12</p>
+   </div>
+     <div class="exersize">
+<h2>console.log( "5 >= 12 is " + (5 >= 12));</h2>
+ <h3>Guess: <span>false</span> <h3>
+   <p>Why:5 is not greater than or equal to 12</p>
+   </div>
 </body>
 </html>
