@@ -1,20 +1,19 @@
 //setting variable using a propt of the user//
-var userName = prompt("What is your name?", "Type your name here");
-var userAge = prompt("How old are you?", "Type your age here");
-var userTown = prompt("What is your hometown?", "Type your hometown here");
-var userNumber = prompt("What is your favorite number?", "Type your favorite number here");
+var userInput1 = prompt("Please enter your first number");
+var userInput2 = prompt("Please enter your second number");
+var userInput3 = prompt("Please enter your third number");
+
 
 //iterating the user data back in prompts and via console
-alert("your name is" + userName);
-console.log ("user's name is " + userName);
+alert("your numbers are" + userInput1 + userInput2 + userInput3);
+console.log ("users numbers are" + userInput1 + userInput2 + userInput3);
 
-alert("your age is" + userAge);
-console.log ("user's age is " + userAge);
+var userNumber1 = parseInt(userInput1, 10);
+var userNumber2 = parseInt(userInput2, 10);
+var userNumber3 = parseInt(userInput3, 10);
 
-alert("your hometown is" + userTown);
-console.log ("user's hometown is " + userTown);
+var sum = (userNumber1 + userNumber2 + userNumber3);
+var difference = (userNumber1 - userNumber2 - userNumber3);
+console.log(userInput1 + "+" userInput2 + "+" userInput3 + "=" + sum);
 
-alert("your favorite number is" + userNumber);
-console.log ("user's favorite number is " + userNumber);
-
-
+console.log(userInput1 + "-" userInput2 + "-" userInput3 + "=" + (userInput1 - userInput2 - userInput3));
