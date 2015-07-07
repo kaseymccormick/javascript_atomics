@@ -18,6 +18,10 @@ var side1 = parseInt(sides[0]);
 var side2 = parseInt(sides[1]);
 var side3 = parseInt(sides[2]);
 
+if ((side1 < 0 ) || (side2 < 0 ) || (side3 < 0 )){
+  alert("a length should not be negative, triangle will fail");
+}
+
 //checking first set putting to console//
 if (side1 + side2 > side3){
   console.log("first test pass");
