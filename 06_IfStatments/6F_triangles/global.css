@@ -1,10 +1,26 @@
 body{
   font-family:arial;
+  font-weight:lighter;
 }
-h1{
-  font-size:20px;
+h2{
+  font-size:18px;
 }
 
-h2{
-  font-size:16px;
+h3{
+  font-size:14px;
+}
+
+p{
+  font-size:12px;
+}
+span{
+  color:green;
+}
+
+em{
+  color:red;
+}
+
+.exersize{
+  padding-top:10px;
 }
